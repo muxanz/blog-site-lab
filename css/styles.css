@@ -29,6 +29,13 @@ body {
   display: flex;
   gap: 25px;
 }
+.menu a {
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #2e2e2e;
+  border-bottom: 1px solid #2e2e2e;
+}
 
 /* IMAGEN PRINCIPAL */
 .hero {
@@ -160,3 +167,16 @@ body {
     object-fit: cover;
 }
 
+/* Footer */
+footer {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* style = "background-color: rgba(220, 227, 255, 0.261);" text-align:center; padding:15px; margin-top:20px;" */
