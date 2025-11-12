@@ -29,6 +29,13 @@ body {
   display: flex;
   gap: 25px;
 }
+.menu a {
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #2e2e2e;
+  border-bottom: 1px solid #2e2e2e;
+}
 
 /* IMAGEN PRINCIPAL */
 .hero {

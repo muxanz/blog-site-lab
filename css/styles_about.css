@@ -343,3 +343,11 @@ footer {
     font-size: 14px;
     line-height: 1.6;
 }
+
+.menu a {
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #2e2e2e;
+  border-bottom: 1px solid #2e2e2e;
+}
