@@ -160,3 +160,34 @@ body, html {
     object-fit: cover;
 }
 
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+}
+
+/* === HEADER PRINCIPAL === */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo - Menú - Extras */
+  align-items: center;
+  padding: 10px 50px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* LOGO */
+.logo img {
+  width: 120px;
+}
+
+/* MENÚ CENTRAL */
+.menu {
+  display: flex;
+  gap: 25px;
+}
