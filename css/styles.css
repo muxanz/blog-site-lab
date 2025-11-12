@@ -30,81 +30,6 @@ body {
   gap: 25px;
 }
 
-
-
-
-
-
-
-.blog {
-    position: relative;
-    width: 100%;
-    height: 60vh;
-}
-
-
-.texto-1 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    background-color: #2e2e2e;
-    color: white;
-    padding: 50px;
-}
-
-.texto-2 {
-  position: absolute;
-    right: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    background-color: white;
-    color: black;
-    padding: 50px;
-}
-
-
-.texto-1 h1,
-.texto-2 h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-
-.texto-1 p 
-.texto-2 p{
-    margin-bottom: 15px;
-}
-
-.imagen-1 {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-
-}
-
-.imagen-2 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 55%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.imagen-1 img,
-.imagen-2 img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 /* IMAGEN PRINCIPAL */
 .hero {
   position: relative;
@@ -164,3 +89,74 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
+
+
+.blog {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+
+.texto-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 50px;
+}
+
+.texto-2 {
+  position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
+
+
+.texto-1 h1,
+.texto-2 h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.texto-1 p 
+.texto-2 p{
+    margin-bottom: 15px;
+}
+
+.imagen-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.imagen-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imagen-1 img,
+.imagen-2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
